@@ -44,9 +44,13 @@ python
 import matplotlib.pyplot as plt 
 
 plt.scatter(data['day'], data['tip'])
+
 plt.title("Scatter Plot")
+
 plt.xlabel('Day')
+
 plt.ylabel('Tip')
+
 plt.show()
 ---------------------------------------------------------------------------------------
 
@@ -61,10 +65,15 @@ python
 import matplotlib.pyplot as plt 
 
 plt.bar(data['day'], data['tip'])
+
 plt.title("Bar Chart")
+
 plt.xlabel('Day')
+
 plt.ylabel('Tip')
+
 plt.show()
+
 ========================================================================================
 ✅ Insight: This visualization helps identify which day gets the highest tips.
 
@@ -77,8 +86,11 @@ python
 import matplotlib.pyplot as plt 
 
 plt.hist(data['total_bill'])
+
 plt.title("Histogram")
+
 plt.show()
+
 ========================================================================================
 ✅ Insight: This visualization shows how total bills are distributed across different amounts.
 
